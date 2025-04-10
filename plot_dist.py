@@ -1,3 +1,11 @@
+"""
+.. module:: plot_dist
+
+:Synopsis: Plots the histograms of various parameters and saved.
+:Author: Sourav Das
+:Year: 2023
+"""
+
 from matplotlib import pyplot as plt
 
 def plot_dist(x: list, color, ec, title, xlabel, ylabel, savedir, name, bins=20, density=True):

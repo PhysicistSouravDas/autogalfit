@@ -1,3 +1,11 @@
+"""
+.. module:: cutout
+
+:Synopsis: Create cutout FITS images from larger fits image and plot them.
+:Author: Sourav Das
+:Year: 2023
+"""
+
 from pathlib import Path
 from astropy.io import fits
 from astropy import units as u

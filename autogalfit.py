@@ -1,10 +1,18 @@
-# This module is to run galfit for a field multiple times and 
-# obtain median value of the parameters
-# The idea is to run GALFIT every time, which will create two
-# types of output txt files, and the result.fits file
-# which will be stored in corresponding folders with gal names
-# then the median values of the parameters will be returned
-# by the function
+"""
+.. module:: autogalfit
+
+:Synopsis: Run GALFIT multiple times over a field and compute median parameter values.
+:Author: Sourav Das
+:Year: 2023
+
+This module is to run galfit for a field multiple times and 
+obtain median value of the parameters
+The idea is to run GALFIT every time, which will create two
+types of output txt files, and the result.fits file
+which will be stored in corresponding folders with gal names
+then the median values of the parameters will be returned
+by the function
+"""
 
 import os, random, subprocess
 

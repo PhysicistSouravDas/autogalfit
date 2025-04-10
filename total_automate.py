@@ -1,8 +1,16 @@
-# this program will create the cutouts of all the galaxies
-# obtain the pixel position of the galaxies in that cutout
-# and prepare the GALFIT input files to fit the galaxies in each cutout
+"""
+.. module:: total_automate
 
-# the coordinates and other data is stored in coordinates.txt file
+:Synopsis: Main script which runs GALFIT using other modules.
+:Author: Sourav Das
+:Year: 2023
+
+This program will create the cutouts of all the galaxies
+obtain the pixel position of the galaxies in that cutout
+and prepare the GALFIT input files to fit the galaxies in each cutout
+
+The coordinates and other data is stored in coordinates.txt file.
+"""
 
 from astropy.io import ascii
 import numpy as np

@@ -1,4 +1,11 @@
-# program to get the pixel values from the ra dec coordinates of an object
+"""
+.. module:: get_pixels
+
+:Synopsis: Find pixel values from the RA, Dec coordinates of an object
+:Author: Sourav Das
+:Year: 2023 
+"""
+
 from astropy.io import fits, ascii
 from astropy.wcs import WCS
 from matplotlib import pyplot as plt

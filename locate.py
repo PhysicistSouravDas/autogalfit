@@ -1,3 +1,11 @@
+"""
+.. module:: locate
+
+:Synopsis: Locates astropy SkyCoord object from RA, Dec
+:Author: Sourav Das
+:Year: 2023
+"""
+
 from astropy import units as u
 from astropy.coordinates import SkyCoord
 
